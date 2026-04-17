@@ -1,6 +1,6 @@
 {
   "name": "google-chat-notifications",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "private": true,
   "description": "Google Chat Notifications for GitHub Actions",
   "main": "dist/index.js",
@@ -20,18 +20,18 @@
   "author": "nakamuraos",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.9.1",
-    "@actions/github": "^5.0.0",
-    "axios": "^0.28.0"
+    "@actions/core": "3.0.0",
+    "@actions/github": "9.1.0",
+    "axios": "1.15.0"
   },
   "devDependencies": {
-    "@types/axios": "^0.14.0",
-    "@types/jest": "^27.0.3",
-    "@types/node": "^16.11.11",
-    "@zeit/ncc": "^0.22.3",
-    "jest": "^27.4.3",
-    "jest-circus": "^27.4.2",
-    "ts-jest": "^27.0.7",
-    "typescript": "^4.5.2"
-  }
+    "@types/jest": "30.0.0",
+    "@types/node": "24.12.2",
+    "@vercel/ncc": "0.38.4",
+    "jest": "30.3.0",
+    "jest-circus": "30.3.0",
+    "ts-jest": "29.4.9",
+    "typescript": "5.9.3"
+  },
+  "packageManager": "yarn@1.22.22"
 }
